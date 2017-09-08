@@ -68,31 +68,23 @@ form button {
   border: 1px solid #BDBDBD;
 }
 
-.users-online h1 {
-  border-bottom: 1px solid #BDBDBD;
-}
-
  .users {
    margin: 5px 0;
+   overflow: scroll;
  }
 
-.sign-in {
+.online-header {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  height: 200px;
-  background-color: #FFF;
-  border: 1px solid #BDBDBD;
-  z-index: 1000;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
 }
 
-.sign-in-input {
-  border: 1px solid #BDBDBD;
+.special-msg {
+  color: green;
 }
 
-.logged .sign-in {
-  display: none;
+.disconnect-msg {
+  color: red;
 }
